@@ -29,6 +29,7 @@ podTemplate(label: "${project_name}", containers: [
         }
 
         stage('Test') {
+          kubesh "sleep 600"
           kubesh "docker build -t ${project_name}:${env.JOB_BASE_NAME}.${env.BUILD_ID} ."
         }
 
