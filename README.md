@@ -1,4 +1,5 @@
 # container-curator
+[![pipeline status](https://git.cnct.io/common-tools/samsung-cnct_container-curator/badges/master/pipeline.svg)](https://git.cnct.io/common-tools/samsung-cnct_container-curator/commits/master)
 
 Elasticsearch curator is a management tool for indices in elasticsearch.
 
